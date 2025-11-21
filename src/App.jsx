@@ -8,12 +8,13 @@
 //    </>
 //  );
 
+import ToDoList from "./To_Do_List.jsx";
 function App() {
 
      
   return (
     <>  
-      <ArrayUpdatorObject/>
+      <ToDoList/>
     </>
   );
 }
