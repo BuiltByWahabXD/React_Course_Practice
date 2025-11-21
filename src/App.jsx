@@ -1,10 +1,10 @@
-import ArrayUpdater from "./ArrayUpdater";
+import ArrayUpdatorObject from "./UpdateArrayInObject/ArrayUpdatorObject.jsx";
 function App() {
 
      
   return (
     <>  
-      <ArrayUpdater/>
+      <ArrayUpdatorObject/>
     </>
   );
 }

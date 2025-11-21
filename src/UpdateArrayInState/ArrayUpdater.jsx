@@ -35,25 +35,25 @@ const ArrayUpdater = () => {
       <div style={{ display: "flex", flexDirection: "column", width: "200px", gap: "10px", marginTop: "20px" }}>
         {foods.map((food, index) => (
           <div
+            style={{ border: "1px solid black", padding: "10px", borderRadius: "5px" }}
             key={index}
             onClick={() => handleRemoveFood(index)}
-            style={{ border: "1px solid black", padding: "10px", borderRadius: "5px" }}
           >
             {food}
           </div>
         ))}
 
         <input
+          style={{ padding: "10px", borderRadius: "5px", border: "1px solid gray" }}
           type="text"
           id="foodInput"
           placeholder="Add Food Item"
-          style={{ padding: "10px", borderRadius: "5px", border: "1px solid gray" }}
         />
 
         <button
+          style={{ padding: "10px", borderRadius: "5px", border: "none", backgroundColor: "green", color: "white", cursor: "pointer" }}
           type="button"
           onClick={handleAddFood}
-          style={{ padding: "10px", borderRadius: "5px", border: "none", backgroundColor: "green", color: "white", cursor: "pointer" }}
         >
           Add Food
         </button>
